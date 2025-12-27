@@ -83,6 +83,17 @@ erp-exception-monitoring/
 - Demonstrates a scalable and explainable approach to ERP monitoring
 
 ---
+## Sample Output
+
+### Processing Time Distribution
+The chart below shows the distribution of processing times across simulated ERP integration transactions.  
+This helps validate performance patterns and identify SLA breach thresholds before applying automated monitoring logic.
+
+![Processing Time Distribution](assets/output_summary.png)
+
+---
+
+---
 ## Use Case Relevance
 This approach is directly applicable to:
 - NetSuite EDI integrations
