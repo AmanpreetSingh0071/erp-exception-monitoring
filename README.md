@@ -54,3 +54,43 @@ The stack is intentionally lightweight and enterprise-friendly, focusing on prac
 ---
 
 ## Project Structure
+erp-exception-monitoring/
+│
+├── data/
+│ ├── integration_logs.csv
+│ ├── exceptions_report.csv
+│ └── final_exceptions_report.csv
+│
+├── src/
+│ ├── data_loader.py
+│ ├── rule_engine.py
+│ ├── anomaly_detector.py
+│ └── main.py
+│
+├── notebooks/
+│ └── analysis.ipynb
+│
+├── requirements.txt
+└── README.md
+
+
+---
+
+## Key Outcomes
+- Proactive identification of integration failures and SLA breaches
+- Reduced reliance on manual log analysis
+- Improved visibility into abnormal transaction behaviour
+- Demonstrates a scalable and explainable approach to ERP monitoring
+
+---
+## Use Case Relevance
+This approach is directly applicable to:
+- NetSuite EDI integrations
+- API-based order and invoice processing
+- Enterprise integration monitoring and support
+- Operational analytics and automation initiatives
+
+---
+
+## Disclaimer
+The dataset used in this project is simulated for demonstration purposes but reflects realistic ERP integration patterns and operational scenarios.
